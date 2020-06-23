@@ -31,3 +31,28 @@
 // else if(date>=16){
 //     document.write("Last days of month");
 // }
+
+// Task 7
+
+// var hrs=new Date().getHours();
+// if(hrs<12){
+//     alert("Its am");
+// }
+// else if(hrs>12){
+//     alert("its pm");
+// }
+
+// Task 8
+
+// var result=new Date().toString();
+// var seg1=result.slice(0,15);
+// var seg2=result.slice(15,25);
+// var seg3=result.slice(25);
+// var new_seg1=seg1.replace(seg1,"Thu Dec 31 2020");
+// var new_seg2=seg2.replace(seg2,"00:00:00 ");
+// document.write(result+"</br>");
+// document.write("Later date: "+new_seg1+new_seg2+seg3);
+
+// Task 9
+// var days=new Date().getUTCDate();
+// document.write(days+59+" days have passed since 1st ramadan 2020");
